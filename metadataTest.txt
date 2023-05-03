@@ -1,0 +1,16 @@
+
+
+{
+"Shoe":
+{
+"BarcodeId":"8300850410977",
+"Price" : "$6.99",
+"Category" : "Men",
+      "Material" : "Cotton",
+    "ProductId" : "K59U-3811",
+    "ProductName" : "Fitness Club Takeoff"
+	
+    }
+
+}
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_login"
+    >
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/barcode_id_favt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I will display Barcode ID"/>
+
+    <TextView
+        android:id="@+id/category_favt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I will display Category"/>
+    <TextView
+        android:id="@+id/material_favt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I will display Material"/>
+    <TextView
+        android:id="@+id/price_favt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I will display Price"/>
+    <TextView
+        android:id="@+id/product_id_favt"
+        android:text="I will display ProductID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/product_name_favts"
+        android:text="I will display ProductName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+</RelativeLayout>

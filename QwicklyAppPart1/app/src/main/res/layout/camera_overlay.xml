@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/camera_overlay_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <RelativeLayout
+        android:id="@+id/loading_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:layout_alignStart="@+id/DetailsButton"
+        android:layout_marginBottom="125dp"
+        android:background="#07000000"
+        android:padding="30dip">
+
+        <ProgressBar
+            android:id="@+id/loading_indicator"
+            style="@android:style/Widget.ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/Barcode_text_AR"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/test"
+        android:paddingTop="47dp"
+        android:text="@string/display_price_latest"
+        android:visibility="invisible"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Material_text_AR"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/test2"
+        android:visibility="invisible"
+        android:paddingLeft="60dp"
+        android:paddingTop="40dp"
+        android:text="Display Material"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Category_text_AR"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="178dp"
+        android:background="@drawable/f1c22d33682d21990781e7bc51ceafc3"
+        android:paddingLeft="60dp"
+        android:paddingTop="42dp"
+        android:text="Display Category"
+        android:textColor="#fff"
+        android:visibility="invisible"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/DetailsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:background="@drawable/buttonstyle2"
+        android:text="View Details" />
+
+</RelativeLayout>
